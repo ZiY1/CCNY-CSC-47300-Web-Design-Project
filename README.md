@@ -1,3 +1,13 @@
+# Prerequisite
+
+1. Node.js
+2. yarn
+
+# Steps
+1. yarn
+2. yarn start
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -69,8 +79,3 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
-
-### Steps
-1. git clone --single-branch -b react-social-ui https://github.com/safak/youtube2022.git 
-2. yarn
-3. yarn start
