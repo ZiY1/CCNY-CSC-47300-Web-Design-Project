@@ -1,59 +1,69 @@
-.login {
-  height: 100vh;
-  background-color: #2A6BAC;
+.login-body{
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: #2A6BAC;
+}
+.login1 {
+  // height: 100%;  
+  // display: flex;
+  // align-items: center;
+  // justify-content: center;
+  // margin-top: 100px;
+  // height: 100vh;
 
-  .card {
-    width: 50%;
-    display: flex;
+  .card1 {
+    max-width: 800px;
+    // min-width: 150px;
+    // display: flex;
     background-color: white;
-    border-radius: 10px;
-    min-height: 600px;
-    overflow: hidden;
+    border-radius: 2%;
+    min-height: 70vh;
+    // overflow: hidden;
 
     .left {
-      flex: 1;
-      background: linear-gradient(rgba(88, 151, 214, 0.5), rgba(88, 151, 214, 0.5)),
-        url("https://i0.wp.com/lowershoreautism.org/wp-content/uploads/2021/11/AdobeStock_414653696-1-scaled.jpeg?resize=732%2C488&ssl=1")
+      // flex: 1;
+      background: linear-gradient(rgba(39, 11, 96, 0.5), rgba(39, 11, 96, 0.5)),
+        url("https://images.pexels.com/photos/3228727/pexels-photo-3228727.jpeg?auto=compress&cs=tinysrgb&w=1600")
           center;
       background-size: cover;
       padding: 50px;
       display: flex;
       flex-direction: column;
-      gap: 30px;
+      gap: 5%;
       color: white;
-
+      
+      // border-radius: inherit;
       h1 {
-        font-size: 100px;
+        font-size: 60px;
         line-height: 100px;
       }
       
       p {
+        font-size: large;
       }
 
       span {
-        font-size: 14px;
+        font-size: small;
       }
       
       button {
-        width: 50%;
+        // width: 50%;
         padding: 10px;
         border: none;
         background-color: white;
-        color: #2A6BAC;
+        color: rebeccapurple;
         font-weight: bold;
         cursor: pointer;
       }
     }
 
     .right {
-      flex: 1;
+      // flex: 1;
       padding: 50px;
       display: flex;
       flex-direction: column;
-      gap: 50px;
+      gap: 5%;
       justify-content: center;
 
       h1 {
@@ -63,7 +73,7 @@
       form {
         display: flex;
         flex-direction: column;
-        gap: 30px;
+        gap: 3%;
         
         input {
         border: none;
@@ -72,10 +82,10 @@
         }
         
         button {
-          width: 50%;
+          // width: 50%;
           padding: 10px;
           border: none;
-          background-color: #2A6bAC;
+            background-color: #2A6BAC;
           color: white;
           font-weight: bold;
           cursor: pointer;
