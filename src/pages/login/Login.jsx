@@ -1,15 +1,19 @@
 import { useEffect } from "react";
 import { useContext } from "react";
+import { useForm } from "react-hook-form";
 import { Link } from "react-router-dom";
 import { AuthContext } from "../../context/authContext";
 import "./login.scss";
 
 const Login = () => {
+  const { register, handleSubmit, formState: { errors } } = useForm();
   const { login } = useContext(AuthContext);
 
-  const handleLogin = () => {
-    login();
-  };
+  const onSubmit = (data) => {
+    console.log(data)
+    login()
+    window.location = "/"
+  }
 
   useEffect(()  => {
     document.body.classList.add('login-body');
@@ -35,10 +39,20 @@ const Login = () => {
         </div>
         <div className="right col-lg-6 col-md-6 col-sm-12">
           <h1>Login</h1>
-          <form>
-            <input type="text" placeholder="Username" />
-            <input type="password" placeholder="Password" />
-            <button onClick={handleLogin}>Login</button>
+          <form onSubmit={handleSubmit(onSubmit)} >
+          <input
+              placeholder='Username'
+              type="text"
+              {...register("username", { required: true})}
+            />
+            {errors.username && <p>Please enter a username!</p>}
+            <input
+              placeholder='Password'
+              type="password"
+              {...register("password", { required: true})}
+            />
+            {errors.password && <p>Please enter a password!</p>}
+            <button type="submit">Login</button>
           </form>
         </div>
       </div>
