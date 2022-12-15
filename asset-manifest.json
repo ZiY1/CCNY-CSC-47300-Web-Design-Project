@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Seek-Support/static/css/main.4738c207.css",
-    "main.js": "/Seek-Support/static/js/main.6671757d.js",
+    "main.js": "/Seek-Support/static/js/main.a15447d9.js",
     "index.html": "/Seek-Support/index.html",
     "main.4738c207.css.map": "/Seek-Support/static/css/main.4738c207.css.map",
-    "main.6671757d.js.map": "/Seek-Support/static/js/main.6671757d.js.map"
+    "main.a15447d9.js.map": "/Seek-Support/static/js/main.a15447d9.js.map"
   },
   "entrypoints": [
     "static/css/main.4738c207.css",
-    "static/js/main.6671757d.js"
+    "static/js/main.a15447d9.js"
   ]
 }
