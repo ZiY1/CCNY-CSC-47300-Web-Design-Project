@@ -39,11 +39,14 @@ const Navbar = () => {
         <EmailOutlinedIcon />
         <NotificationsOutlinedIcon />
         <div className="user">
-          <img
-            src={currentUser.profilePic}
-            alt=""
-          />
-          <span>{currentUser.name}</span>
+          <img src={currentUser.profilePic} alt="" />
+
+          <Link
+            to={`/profile/${currentUser.userId}`}
+            style={{ textDecoration: "none" }}
+          >
+            <span>{currentUser.name}</span>
+          </Link>
         </div>
       </div>
     </div>
