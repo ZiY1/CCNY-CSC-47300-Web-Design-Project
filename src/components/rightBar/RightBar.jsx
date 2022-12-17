@@ -12,7 +12,7 @@ const RightBar = () => {
                 src="https://i.etsystatic.com/15418561/r/il/f06c80/3233862560/il_fullxfull.3233862560_jwqd.jpg"
                 alt=""
               />
-              <span>Yiyang Wu</span>
+              <span>YiYang Wu</span>
             </div>
             <div className="buttons">
               <button>follow</button>
@@ -25,7 +25,7 @@ const RightBar = () => {
                 src="https://i.etsystatic.com/15418561/r/il/f06c80/3233862560/il_fullxfull.3233862560_jwqd.jpg"
                 alt=""
               />
-              <span>Yiyang Wu</span>
+              <span>Cliff Walker</span>
             </div>
             <div className="buttons">
               <button>follow</button>
@@ -52,7 +52,57 @@ const RightBar = () => {
                 alt=""
               />
               <div className="online" />
-              <span>Min Zheng</span>
+              <span>Ava Lindsey</span>
+            </div>
+          </div>
+          <div className="user">
+            <div className="userInfo">
+              <img
+                src="https://i.etsystatic.com/36532523/r/il/712f21/4436521427/il_fullxfull.4436521427_64xx.jpg"
+                alt=""
+              />
+              <div className="online" />
+              <span>Zoe Herrera</span>
+            </div>
+          </div>
+          <div className="user">
+            <div className="userInfo">
+              <img
+                src="https://i.etsystatic.com/36532523/r/il/712f21/4436521427/il_fullxfull.4436521427_64xx.jpg"
+                alt=""
+              />
+              <div className="online" />
+              <span>Sally Marsh</span>
+            </div>
+          </div>
+          <div className="user">
+            <div className="userInfo">
+              <img
+                src="https://i.etsystatic.com/36532523/r/il/712f21/4436521427/il_fullxfull.4436521427_64xx.jpg"
+                alt=""
+              />
+              <div className="online" />
+              <span>Uyeno Mayumi</span>
+            </div>
+          </div>
+          <div className="user">
+            <div className="userInfo">
+              <img
+                src="https://i.etsystatic.com/36532523/r/il/712f21/4436521427/il_fullxfull.4436521427_64xx.jpg"
+                alt=""
+              />
+              <div className="online" />
+              <span>Hirota Yuko</span>
+            </div>
+          </div>
+          <div className="user">
+            <div className="userInfo">
+              <img
+                src="https://i.etsystatic.com/36532523/r/il/712f21/4436521427/il_fullxfull.4436521427_64xx.jpg"
+                alt=""
+              />
+              <div className="online" />
+              <span>Iida Kou</span>
             </div>
           </div>
           <div className="user">
@@ -72,7 +122,7 @@ const RightBar = () => {
                 alt=""
               />
               <div className="online" />
-              <span>Min Zheng</span>
+              <span>Jwa Hye</span>
             </div>
           </div>
           <div className="user">
@@ -82,7 +132,7 @@ const RightBar = () => {
                 alt=""
               />
               <div className="online" />
-              <span>Min Zheng</span>
+              <span>Deungjeong Hyo-Sonn</span>
             </div>
           </div>
           <div className="user">
@@ -92,57 +142,7 @@ const RightBar = () => {
                 alt=""
               />
               <div className="online" />
-              <span>Min Zheng</span>
-            </div>
-          </div>
-          <div className="user">
-            <div className="userInfo">
-              <img
-                src="https://i.etsystatic.com/36532523/r/il/712f21/4436521427/il_fullxfull.4436521427_64xx.jpg"
-                alt=""
-              />
-              <div className="online" />
-              <span>Min Zheng</span>
-            </div>
-          </div>
-          <div className="user">
-            <div className="userInfo">
-              <img
-                src="https://i.etsystatic.com/36532523/r/il/712f21/4436521427/il_fullxfull.4436521427_64xx.jpg"
-                alt=""
-              />
-              <div className="online" />
-              <span>Min Zheng</span>
-            </div>
-          </div>
-          <div className="user">
-            <div className="userInfo">
-              <img
-                src="https://i.etsystatic.com/36532523/r/il/712f21/4436521427/il_fullxfull.4436521427_64xx.jpg"
-                alt=""
-              />
-              <div className="online" />
-              <span>Min Zheng</span>
-            </div>
-          </div>
-          <div className="user">
-            <div className="userInfo">
-              <img
-                src="https://i.etsystatic.com/36532523/r/il/712f21/4436521427/il_fullxfull.4436521427_64xx.jpg"
-                alt=""
-              />
-              <div className="online" />
-              <span>Min Zheng</span>
-            </div>
-          </div>
-          <div className="user">
-            <div className="userInfo">
-              <img
-                src="https://i.etsystatic.com/36532523/r/il/712f21/4436521427/il_fullxfull.4436521427_64xx.jpg"
-                alt=""
-              />
-              <div className="online" />
-              <span>Min Zheng</span>
+              <span>Ryan Eui</span>
             </div>
           </div>
         </div>
